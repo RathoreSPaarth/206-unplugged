@@ -139,11 +139,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -168,6 +168,13 @@ footer {
 /* Header Styles */
 header {
   padding: 15px 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
@@ -239,6 +246,8 @@ footer .copyright {
 /*---------- Mobile Styles - Homepage ----------*/   
 /* Hero */
 .hero-area {
+  background: url('../img/hero-img.jpg') center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -295,6 +304,8 @@ input[type=button] {
 
 /* Ammenities */
 .features {
+  background: url('../img/features.jpg') center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -501,6 +512,10 @@ header {
   padding: 33px 0;
 }
 
+header figure {
+  width: 30%;
+}
+
 header .content-wrapper {
   width: 100%;
   justify-content: space-between;
@@ -553,6 +568,13 @@ aside .content-wrapper .form {
 }
 
 /*---------- Reviews ----------*/
+.reviews figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
 .reviews article {
   display: flex;
   justify-content: space-between;
