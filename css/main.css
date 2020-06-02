@@ -125,6 +125,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -176,6 +177,7 @@ header figure {
   width: 60%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -278,6 +280,7 @@ footer .copyright {
 
 /* Newsletter Signup */
 aside {
+  background: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,10 +288,6 @@ aside {
 }
 
 /* Form styles */
-aside {
-  background: #527158;
-}
-
 aside .form {
   margin-top: 30px;
 }
@@ -612,6 +611,10 @@ aside .content-wrapper .form {
   width: 62%;
 }
 
+.features i {
+  margin-bottom: 30px;
+}
+
 /*---------- Reviews ----------*/
 .reviews article {
   display: flex;
@@ -698,7 +701,7 @@ footer .copyright {
   width: 45%;
 }
 
-.content-section .content-wrapper h2 {
+.contact-section .content-wrapper h2 {
   width: 80%;
 }
 
@@ -713,7 +716,7 @@ footer .copyright {
 }
 
 .contact-content h4 {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 }
@@ -756,6 +759,10 @@ aside .content-wrapper {
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
   width: 30%;
+}
+
+.form-description p {
+  font-size: 1.125em;
 }
 
 /*---------- Ammenities ----------*/
